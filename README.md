@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 To install OpenCV, run the following command:
 
-pip install opencv-python
+  pip install opencv-python
 
 
 ## Usage
