@@ -28,7 +28,8 @@ The script contains a function cut_video(input_path, output_path, start_time, en
 - output_path: Path where the output video will be saved.
 - start_time: Start time of the segment to cut (in seconds).
 - end_time: End time of the segment to cut (in seconds).
-
+- 
+`bash
 input_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\demovedio.mp4"
 output_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\output_video.mp4"
 start_time = 0   # Start time in seconds
