@@ -18,8 +18,6 @@ Ensure you have the following installed:
 To install OpenCV, run the following command:
   ```bash
   pip install opencv-python
-
-
 ## Usage
 1. Script Overview
 The script contains a function cut_video(input_path, output_path, start_time, end_time) that cuts a video file from the specified start time to the end time.
