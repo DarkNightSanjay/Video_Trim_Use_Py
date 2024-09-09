@@ -39,4 +39,17 @@ The script contains a function cut_video(input_path, output_path, start_time, en
 
    cut_video(input_path, output_path, start_time, end_time)
 
-  
+  After running the script, you will see the following output in the console:
+
+    Cut video saved at C:\Users\4a Freeboard\Videos\AnyDesk\output_video.mp4
+    Total frames written: [Number of frames]
+
+## How It Works
+Open the video: The script uses OpenCV’s VideoCapture to open and read the input video.
+Get frame rate and dimensions: The script extracts the frames per second (FPS) and video dimensions for writing the output file.
+Frame calculation: Based on the start and end times (in seconds), it calculates the respective frame numbers to cut.
+Write output: A VideoWriter object is used to write the frames within the specified time range into a new video file.
+
+## Notes
+The script currently uses the XVID codec for video compression. You can modify this by changing the codec in the VideoWriter object if needed.
+Make sure that the output_path is different from the input_path to avoid overwriting the original video.
