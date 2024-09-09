@@ -16,8 +16,8 @@ Ensure you have the following installed:
 - OpenCV library (`cv2`)
 
 To install OpenCV, run the following command:
-
-  pip install opencv-python
+```bash
+pip install opencv-python
 
 
 ## Usage
@@ -34,5 +34,7 @@ output_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\output_video.mp4"
 start_time = 0   # Start time in seconds
 end_time = 10    # End time in seconds
 
-
 cut_video(input_path, output_path, start_time, end_time)
+
+
+
