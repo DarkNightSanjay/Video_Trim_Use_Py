@@ -30,11 +30,11 @@ The script contains a function cut_video(input_path, output_path, start_time, en
 - end_time: End time of the segment to cut (in seconds).
   
 ## Example 
-   input_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\demovedio.mp4"
-   output_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\output_video.mp4"
-   start_time = 0   # Start time in seconds
-   end_time = 10    # End time in seconds
-   cut_video(input_path, output_path, start_time, end_time)
+    input_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\demovedio.mp4"
+    output_path = r"C:\Users\4a Freeboard\Videos\AnyDesk\output_video.mp4"
+    start_time = 0   # Start time in seconds
+    end_time = 10    # End time in seconds
+    cut_video(input_path, output_path, start_time, end_time)
 
   After running the script, you will see the following output in the console:
 
